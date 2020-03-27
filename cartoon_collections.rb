@@ -22,7 +22,7 @@ end
 
 def find_the_cheese (array_string)
   array_string.find do |cheese|
-  cheese = "cheddar" || "gouda"|| "camebert"
+  cheese == "cheddar" || "gouda"|| "camebert"
 end
 end 
   
